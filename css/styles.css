@@ -2270,3 +2270,239 @@ form ul li .field-submit {
   color: #ffffff;
   font-family: "Roboto-Light";
 }
+
+@media (min-width: 320px) {
+  .navigation-bar {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) {
+  .dm-proj .container {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 320px) {
+  .dm-proj-about {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) {
+  .slider-top {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 320px) {
+  .slider-top-dream,
+  .slider-top-dream-house,
+  .fastandsafe,
+  .consult-q,
+  .welcometo2 {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 320px) {
+   .slick-slider-lorem {
+    width: 26%;
+  }
+}
+
+@media (min-width: 320px) {
+  .slick-next::before {
+   content: none;
+ }
+}
+
+@media (min-width: 320px) {
+  .slick-dots li.slick-active button:before, 
+  .slick-dots li button:before {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) {
+  .consult-m {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 320px) {
+  [data-icon]::after,
+  .contactus2,
+  .youaremost::before,
+  .youaremost::after,
+  .youaremost2::before,
+  .youaremost2::after,
+  .dm-proj-projects-menu,
+  .slick-slider-projects,
+  .dm-proj-testimonials,
+  .clients,
+  .dm-proj-plan img,
+  .dm-proj-clients div img,
+  .dm-proj-testimonials .container .p,
+  .dm-proj-testimonials .container .p2,
+  .awards,
+  .dm-proj-form,
+  .dm-proj-contact-form,
+  .dm-proj-newsletter,
+  .slick-slider-team.slick-initialized.slick-slider.slick-dotted {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) {
+  .welcometo2,
+  .strucbuilder {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 320px) {
+  .fairprice-support-delivery {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    width: auto;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 320px) {
+  .fairprice,
+  .support,
+  .fastdelivery {
+    width: 320px;
+    height: 320px;
+    background-image: none;
+  }
+}
+
+@media (min-width: 320px) {
+  .fairprice::before,
+  .support::before,
+  .fastdelivery::before {
+     margin-top: 0px;
+     font-size: 45px;
+  }
+}
+
+@media (min-width: 320px) {
+  .fairprice-p1,
+  .support-p1,
+  .fastdelivery-p1 {
+     font-size: 20px;
+  }
+}
+
+@media (min-width: 320px) {
+  .fairprice-p2,
+  .support-p2,
+  .fastdelivery-p2 {
+     padding: 0px;
+     width: 90%;
+     margin: 0px;
+     display: block;
+  }
+}
+
+@media (min-width: 320px) {
+  video {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) {
+  .dm-proj-offer,
+  .dm-proj-projects,
+  .dm-proj-testimonials,
+  .dm-proj-team,
+  .dm-proj-clients,
+  .dm-proj-newsletter,
+  .dm-proj-plan,
+  .price-list,
+  .dm-proj-recentnews,
+  .news-list {
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 320px) {
+  .video .btn-play-main,
+  .video .controls .buttons {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) {
+  .dm-proj-offer-block {
+    margin-top: 0px;
+    display: block;
+  }
+}
+
+@media (min-width: 320px) {
+  .dm-proj-block-item {
+    margin-top: 10px;
+    padding: 0px;
+  }
+}
+
+@media (min-width: 320px) {
+  .btn-contact-us .contactus,
+  .weareeverywhere .contactus {
+    margin: 0px;
+  }
+}
+
+@media (min-width: 320px) {
+  .dm-proj-clients .container {
+    justify-content: none;
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 320px) {
+  .dm-proj-clients .weareeverywhere {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) {
+   .price-list .column {
+    flex-direction: column;
+    padding-top: 20px;
+    width: 0px;
+    box-shadow: none;
+  }
+}
+
+@media (min-width: 320px) {
+  .price-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+ }
+}
+
+@media (min-width: 320px) {
+  .news-list .column {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    box-shadow: none;
+ }
+}
+
+@media (min-width: 320px) {
+  .news-list {
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+    padding-bottom: 50px;
+ }
+}
