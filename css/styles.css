@@ -2271,31 +2271,37 @@ form ul li .field-submit {
   font-family: "Roboto-Light";
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .navigation-bar {
     display: none;
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .dm-proj .container {
     justify-content: center;
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
+  .dm-proj {
+    padding-bottom: 200px;
+  }
+}
+
+@media (max-width: 320px) {
   .dm-proj-about {
     width: 100%;
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .slider-top {
     font-size: 22px;
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .slider-top-dream,
   .slider-top-dream-house,
   .fastandsafe,
@@ -2305,32 +2311,32 @@ form ul li .field-submit {
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
    .slick-slider-lorem {
     width: 26%;
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .slick-next::before {
    content: none;
  }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .slick-dots li.slick-active button:before, 
   .slick-dots li button:before {
     display: none;
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .consult-m {
     font-size: 12px;
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   [data-icon]::after,
   .contactus2,
   .youaremost::before,
@@ -2354,14 +2360,14 @@ form ul li .field-submit {
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .welcometo2,
   .strucbuilder {
     font-size: 20px;
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .fairprice-support-delivery {
     display: flex;
     flex-direction: column;
@@ -2371,7 +2377,7 @@ form ul li .field-submit {
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .fairprice,
   .support,
   .fastdelivery {
@@ -2381,7 +2387,7 @@ form ul li .field-submit {
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .fairprice::before,
   .support::before,
   .fastdelivery::before {
@@ -2390,7 +2396,7 @@ form ul li .field-submit {
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .fairprice-p1,
   .support-p1,
   .fastdelivery-p1 {
@@ -2398,7 +2404,7 @@ form ul li .field-submit {
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .fairprice-p2,
   .support-p2,
   .fastdelivery-p2 {
@@ -2409,13 +2415,13 @@ form ul li .field-submit {
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   video {
     display: none;
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .dm-proj-offer,
   .dm-proj-projects,
   .dm-proj-testimonials,
@@ -2430,48 +2436,48 @@ form ul li .field-submit {
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .video .btn-play-main,
   .video .controls .buttons {
     display: none;
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .dm-proj-offer-block {
     margin-top: 0px;
     display: block;
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .dm-proj-block-item {
     margin-top: 10px;
     padding: 0px;
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .btn-contact-us .contactus,
   .weareeverywhere .contactus {
     margin: 0px;
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .dm-proj-clients .container {
     justify-content: none;
     padding-top: 20px;
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .dm-proj-clients .weareeverywhere {
     width: 100%;
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
    .price-list .column {
     flex-direction: column;
     padding-top: 20px;
@@ -2480,7 +2486,7 @@ form ul li .field-submit {
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .price-list {
     display: flex;
     flex-direction: column;
@@ -2489,7 +2495,7 @@ form ul li .field-submit {
  }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .news-list .column {
     display: flex;
     flex-direction: column;
@@ -2498,11 +2504,30 @@ form ul li .field-submit {
  }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .news-list {
     display: flex;
     flex-direction: column;
     box-shadow: none;
     padding-bottom: 50px;
  }
+}
+
+@media (max-width: 320px) {
+  .nav-flex {
+    flex-direction: column;  
+  }
+}
+
+@media (max-width: 320px) {
+  .nav-flex-column-4 p{
+    width: 277px;  
+  }
+}
+
+@media (max-width: 320px) {
+  .nav-flex {
+    flex-direction: column; 
+    margin-left: 0px; 
+  }
 }
