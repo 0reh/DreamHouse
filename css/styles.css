@@ -80,7 +80,6 @@ a {
   text-decoration: none;
   color: #ffffff;
   font-family: "Roboto-Regular";
-  font-display: swap;
 }
 
 .logo p {
@@ -88,7 +87,6 @@ a {
   text-transform: uppercase;
   color: #ffffff;
   font-family: "HelveticaNeueLTStd-Th";
-  font-display: swap;
 }
 
 .logo span {
@@ -96,7 +94,6 @@ a {
   text-transform: uppercase;
   color: #ffffff;
   font-family: "HelveticaNeueLTStd-Bd";
-  font-display: swap;
 }
 
 .logo p::before {
@@ -104,7 +101,6 @@ a {
   content: '\e98a';
   font-size: 30px;
   font-family: "icofont";  
-  font-display: swap;
 }
 
 .nav-bar-home:hover,
@@ -139,7 +135,6 @@ a {
   color: #ffffff;
   font-size: 36px;
   font-family: "Roboto-Light";
-  font-display: swap;
 }
 
 .slider-top-dream {
@@ -148,7 +143,6 @@ a {
   font-size: 104px;
   color: #E6C40B;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 .slider-top-dream-house {
@@ -157,14 +151,12 @@ a {
   font-size: 104px;
   color: #ffffff;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 .fastandsafe {
   font-size: 36px;
   color: #ffffff;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .consult-q {
@@ -175,7 +167,6 @@ a {
   line-height: 27px;
   font-size: 36px;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 .consult-m {
@@ -183,7 +174,6 @@ a {
   padding: 0px;
   font-size: 14px;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .contactus {
@@ -201,13 +191,11 @@ a {
   text-transform: uppercase;
   font-size: 18px;
   font-family: "Roboto-Bold";
-  font-display: swap;
 }
 
 .contactus a {
   color: #000000;
   font-family: "Roboto-Bold";
-  font-display: swap;
 }
 
 .contactus2 {
@@ -224,14 +212,12 @@ a {
   font-size: 18px;
   color: #ffffff;
   font-family: "Roboto-Bold";
-  font-display: swap;
 }
 
 [data-icon]::after {
   margin-left: 15px;
   font-family: "eleganticons";
   content: attr(data-icon);
-  font-display: swap;
 }
 
 .dm-proj-about .slick-list.draggable {
@@ -243,7 +229,6 @@ a {
   font-size: 14px;
   color: #ffffff;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .slick-slider.slick-initialized.slick-dotted {
@@ -318,7 +303,6 @@ a {
   font-size: 18px;
   text-transform: uppercase;
   font-family: "Roboto-Regular";
-  font-display: swap;
 }
 
 .youaremost::before {
@@ -341,7 +325,6 @@ a {
   text-transform: uppercase;
   font-size: 36px;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 .strucbuilder {
@@ -352,21 +335,18 @@ a {
   font-size: 36px;
   color: #E6C40B;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 .dm-proj-welc .container .p {
   margin: 10px 0px;
   font-size: 16px;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .dm-proj-welc .container .p2 {
   margin: 0px 0px 10px 0px;
   font-size: 16px;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .fairprice-support-delivery {
@@ -409,20 +389,17 @@ a {
   margin: 38px 0px 28px 0px;
   color: #000000;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 .fairprice-p1-span2 {
   color: #000000;
   font-family: "Roboto-Regular";
-  font-display: swap;
 }
 
 [data-icon]::after {
   font-size: 24px;
   font-family: "eleganticons";
   content: attr(data-icon);
-  font-display: swap;
 }
 
 .fairprice::before {
@@ -431,7 +408,6 @@ a {
   content: '\ef9d';
   font-size: 60px;
   font-family: "icofont";
-  font-display: swap;
 }
 
 .fairprice-p2 {
@@ -444,7 +420,6 @@ a {
   font-size: 14px;
   color: #000000;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .fairprice-p2-span, .fairprice-p2-span a {
@@ -455,7 +430,6 @@ a {
   text-transform: uppercase;
   color: #000000;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 .support {
@@ -484,13 +458,11 @@ a {
   margin: 38px 0px 28px 0px;
   color: #000000;
   font-family: "Roboto-Regular";
-  font-display: swap;
 }
 
 .support-p1-span2 {
   color: #000000;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 .support-p2-span, .support-p2-span a {
@@ -501,7 +473,6 @@ a {
   text-transform: uppercase;
   color: #000000;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 .support::before {
@@ -510,7 +481,6 @@ a {
   font-size: 60px;
   line-height: 54px;
   font-family: "icofont";
-  font-display: swap;
 }
 
 .support-p2 {
@@ -523,7 +493,6 @@ a {
   font-size: 14px;
   color: #000000;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .fastdelivery {
@@ -549,7 +518,6 @@ a {
   font-size: 60px;
   line-height: 54px;
   font-family: "icofont";
-  font-display: swap;
 }
 
 .fastdelivery-p1 {
@@ -561,13 +529,11 @@ a {
   margin: 38px 0px 28px 0px;
   color: #000000;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 .fastdelivery-p1-span2 {
   color: #000000;
   font-family: "Roboto-Regular";
-  font-display: swap;
 }
 
 .fastdelivery-p2-span, .fastdelivery-p2-span a {
@@ -578,7 +544,6 @@ a {
   font-size: 18px;
   color: #000000;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 .fastdelivery-p2 {
@@ -591,7 +556,6 @@ a {
   font-size: 14px;
   color: #000000;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 /** ====================
@@ -618,7 +582,6 @@ video {
   text-transform: uppercase;
   color: #ffffff;
   font-family: "Roboto-Bold";
-  font-display: swap;
 }
 
 .video .btn-play-main {
@@ -694,7 +657,6 @@ video {
   text-transform: uppercase;
   color: #ffffff;
   font-family: "Roboto-Light";
-  font-display: swap;
 }
 
 .video .btn-play-main::after {
@@ -789,7 +751,6 @@ video {
   font-size: 18px;
   text-transform: uppercase;
   font-family: "Roboto-Regular";
-  font-display: swap;
 }
 
 .dm-proj-offer-block {
@@ -815,27 +776,23 @@ video {
   font-size: 18px;
   text-transform: uppercase;
   font-family: "Roboto-Light";
-  font-display: swap;
 }
 
 .dm-proj-block-item-info h4 {
   margin-top: 10px;
   font-size: 18px;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 .dm-proj-block-item-info h4 span {
   font-size: 18px;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 .dm-proj-block-item-info p {
   font-size: 14px;
   text-transform: none;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .dm-proj-block-item .dm-proj-block-item-icon {
@@ -865,14 +822,12 @@ video {
   margin: 10px 0px;
   font-size: 16px;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .dm-proj-projects .container .p2 {
   margin: 0px 0px 10px 0px;
   font-size: 16px;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .dm-proj-projects-menu {
@@ -889,7 +844,6 @@ video {
   text-transform: none;
   color: #000000;
   font-family: "Roboto-Light";
-  font-display: swap;
 }
 
 .dm-proj-projects-nav li {
@@ -905,7 +859,6 @@ video {
   font-size: 16px;
   color: #000000;
   font-family: "Roboto-Light";
-  font-display: swap;
 }
 
 .dm-proj-projects-menu ul li a {
@@ -916,7 +869,6 @@ video {
   text-transform: uppercase;
   font-size: 16px;
   font-family: "Roboto-Light";
-  font-display: swap;
 }
 
 .dm-proj-projects-menu ul li a::after {
@@ -935,7 +887,6 @@ video {
 .dm-proj-projects-menu ul li a:hover {
   color: #E6C40B;
   font-weight: bold;
-
 }
 
 .slick-slider-projects, .dm-proj-projects-menu {
@@ -1009,7 +960,6 @@ video {
   width: 105px;
   font-size: 48px;
   font-family: "Roboto-Light";
-  font-display: swap;
 }
 
 .awards .p3 {
@@ -1017,7 +967,6 @@ video {
   justify-content: flex-end;
   font-size: 48px;
   font-family: "Roboto-Light";
-  font-display: swap;
 }
 
 .awards span {
@@ -1028,7 +977,6 @@ video {
   font-size: 18px;
   color: #ffffff;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 /** ============================================
@@ -1046,7 +994,6 @@ video {
   margin: 27px 0px 0px 0px;
   font-size: 14px;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .slick-slider-team {
@@ -1116,13 +1063,11 @@ div .team-container {
   margin: 27px 0px 10px 0px;
   font-size: 14px;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .dm-proj-testimonials .container .p2 {
   margin: 10px 0px;
   font-family: "Raleway-Regular";
-  font-display: swap;
   font-size: 14px;
 }
 
@@ -1176,14 +1121,12 @@ div .team-container {
   text-transform: uppercase;
   font-size: 18px;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 .paul .paulirish .grade {
   text-transform: uppercase;
   font-size: 12px;
   font-family: "Roboto-Light";
-  font-display: swap;
 }
 
 .paul .paul-testimonial {
@@ -1191,7 +1134,6 @@ div .team-container {
   width: 450px;
   font-size: 14px;
   font-family: "Raleway-Italic";
-  font-display: swap;
 }
 
 .paulirish {
@@ -1229,7 +1171,6 @@ div .team-container {
   text-transform: uppercase;
   font-size: 14px;
   font-family: "Signerica-Fat";
-  font-display: swap;
 }
 
 .testimonials-slider.slick-initialized.slick-slider.slick-vertical .slick-next::before {
@@ -1239,7 +1180,6 @@ div .team-container {
   font-size: 48px;
   color: #b6b6b6;
   font-family: "Pe-icon-7-stroke";
-  font-display: swap;
 }
 
 .testimonials-slider.slick-initialized.slick-slider.slick-vertical .slick-prev:hover::before {
@@ -1258,7 +1198,6 @@ div .team-container {
   font-size: 48px;
   color: #b6b6b6;
   font-family: "Pe-icon-7-stroke";
-  font-display: swap;
 }
 
 .testimonials-slider.slick-initialized.slick-slider.slick-vertical button.slick-prev.slick-arrow {
@@ -1287,7 +1226,6 @@ div .team-container {
 .dm-proj-clients .youaremost2 {  
   font-size: 18px;
   font-family: "Roboto-Regular";
-  font-display: swap;
 }
 
 .dm-proj-clients .youaremost2::before {
@@ -1317,7 +1255,6 @@ div .team-container {
   font-size: 14px;
   line-height: 26px;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .weareeverywhere .contactus {
@@ -1615,7 +1552,6 @@ input[type="email"] {
   color: #878787;
   font-size: 14px;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 input[type="submit"] {
@@ -1629,7 +1565,6 @@ input[type="submit"] {
   text-transform: uppercase;
   font-family: "Roboto-Bold";
   background-color: #eec400;
-  font-display: swap;
 }
 
 /** ===============================
@@ -1658,7 +1593,6 @@ input[type="submit"] {
   margin-bottom: 0px;
   font-size: 14px;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .price-list {
@@ -1684,13 +1618,11 @@ input[type="submit"] {
   line-height: 18px;
   text-transform: uppercase;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 .column .price {
   font-size: 30px;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 .column .p-starter, 
@@ -1701,7 +1633,6 @@ input[type="submit"] {
   line-height: 10px;
   text-transform: uppercase;
   font-family: "Raleway-Light";
-  font-display: swap;
 }
 
 .column .price .cents {
@@ -1716,7 +1647,6 @@ input[type="submit"] {
   font-size: 14px;
   text-transform: capitalize;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .column .exclude-support {
@@ -1737,7 +1667,6 @@ input[type="submit"] {
   text-transform: uppercase;
   color: #ffffff;
   font-family: "Roboto-Bold";
-  font-display: swap;
 }
 
 .column button:hover {
@@ -1767,7 +1696,6 @@ input[type="submit"] {
   margin-bottom: 0px;
   font-size: 14px;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .news-list {
@@ -1783,7 +1711,6 @@ input[type="submit"] {
   margin: 38px 0px 20px 0px;
   font-size: 22px;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .news-list .column {
@@ -1799,14 +1726,12 @@ input[type="submit"] {
   font-size: 12px;
   text-transform: uppercase;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 .news-column-span2 {
   font-size: 12px;
   text-transform: uppercase;
   font-family: "Roboto-Light";
-  font-display: swap;
 }
 
 .news-list .column .news-list-lorem {
@@ -1815,13 +1740,11 @@ input[type="submit"] {
   line-height: 24px;
   font-family: "Raleway-Regular";
   text-transform: none;
-  font-display: swap;
 }
 
 .new-list .column .news-list-link {
   font-size: 14px;
   font-family: "Roboto-Bold";
-  font-display: swap;
 }
 
 .news-column-span3 {
@@ -1830,7 +1753,6 @@ input[type="submit"] {
   font-size: 14px;
   text-transform: uppercase;
   font-family: "Roboto-Bold";
-  font-display: swap;
 }
 
 .right-arrow[data-icon]::after {
@@ -1894,7 +1816,6 @@ input[type="submit"] {
   font-family: "icofont";
   font-size: 32px;
   color: #eec400;
-  font-display: swap;
 }
 
 input[type=email] {
@@ -1906,7 +1827,6 @@ input[type=email] {
   text-transform: none;
   background-color: #f8f7f7;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 input[type=email]:focus {
@@ -1926,7 +1846,6 @@ input[type=text] {
   text-transform: capitalize;
   font-family: "Raleway-Regular";
   background-color: #f8f7f7;
-  font-display: swap;
 }
 
 
@@ -1959,7 +1878,6 @@ textarea[type=text]:focus {
   color: #ffffff;
   background-color: #eec400;
   font-family: "Roboto-Bold";
-  font-display: swap;
 }
 
 form ul{
@@ -2003,7 +1921,6 @@ textarea {
   text-transform: capitalize;
   font-family: "Raleway-Regular";
   background-color: #f8f7f7;
-  font-display: swap;
 }
 
 .field-style.field-split.align-left {
@@ -2087,7 +2004,6 @@ form ul li .field-submit {
   line-height: 0px;
   text-transform: uppercase;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 .contact-form-block p {
@@ -2097,7 +2013,6 @@ form ul li .field-submit {
   line-height: 0px;
   text-transform: capitalize;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .contact-form-frame1::before {
@@ -2107,7 +2022,6 @@ form ul li .field-submit {
   font-size: 36px;
   content: '\ef8b';
   font-family: "icofont";
-  font-display: swap;
 }
 
 .contact-form-frame2::before {
@@ -2116,8 +2030,6 @@ form ul li .field-submit {
   left: 17px;
   font-size: 36px;
   content: '\f008';
-  font-family: "icofont";
-  font-display: swap;
 }
 
 .contact-form-frame3::before {
@@ -2127,7 +2039,6 @@ form ul li .field-submit {
   font-size: 36px;
   content: '\ef12';
   font-family: "icofont";
-  font-display: swap;
 }
 
 /** ===================
@@ -2158,7 +2069,6 @@ form ul li .field-submit {
   text-transform: uppercase;
   color: #eec400;
   font-family: "HelveticaNeueLTStd-Th";
-  font-display: swap;
 }
 
 .nav-flex-column-1 p::before {
@@ -2166,7 +2076,6 @@ form ul li .field-submit {
   content: '\e98a';
   font-size: 30px;
   font-family: "icofont";
-  font-display: swap;
 }
 
 .nav-flex-column-1 span {
@@ -2174,7 +2083,6 @@ form ul li .field-submit {
   text-transform: uppercase;
   color: #eec400;
   font-family: "HelveticaNeueLTStd-Bd";
-  font-display: swap;
 }
 
 .nav-flex-column-1 .nav-flex-p {
@@ -2184,7 +2092,6 @@ form ul li .field-submit {
   text-transform: none;
   color: #ffffff;
   font-family: "Raleway-LightItalic";
-  font-display: swap;
 }
 
 .nav-flex-column-1 .nav-flex-p::before {
@@ -2217,7 +2124,6 @@ form ul li .field-submit {
   font-size: 14px;
   color: #ffffff;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .nav-flex-column-2 ul li::before {
@@ -2225,7 +2131,6 @@ form ul li .field-submit {
   font-size: 16px;
   content: '\ea69';
   font-family: "icofont";
-  font-display: swap;
 }
 
 .nav-flex-column-2 ul {
@@ -2239,7 +2144,6 @@ form ul li .field-submit {
   line-height: 22px;
   color: #ffffff;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .nav-flex-column-3 p::before {
@@ -2249,14 +2153,12 @@ form ul li .field-submit {
   content: '\ed7a';
   font-family: "icofont";
   color: #8e91ff;
-  font-display: swap;
 }
 
 .span-equa {
   font-size: 14px;
   color: #eec400;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 .nav-flex-column-3-p2 {
@@ -2268,7 +2170,6 @@ form ul li .field-submit {
   font-size: 14px;
   color: #ffffff;
   font-family: "Raleway-Bold";
-  font-display: swap;
 }
 
 .nav-flex-column-4 {
@@ -2283,7 +2184,6 @@ form ul li .field-submit {
   text-transform: uppercase;
   color: #ffffff;
   font-family: "Roboto-Black";
-  font-display: swap;
 }
 
 .nav-flex-column-4 h4 {
@@ -2299,7 +2199,6 @@ form ul li .field-submit {
   font-size: 14px;
   color: #ffffff;
   font-family: "Raleway-Regular";
-  font-display: swap;
 }
 
 /** =================================
@@ -2313,7 +2212,6 @@ form ul li .field-submit {
   font-size: 24px;
   color: #ffffff;
   font-family: 'et-line';
-  font-display: swap;
 }
 
 .icon-twitter::before {
@@ -2322,7 +2220,6 @@ form ul li .field-submit {
   font-size: 24px;
   color: #ffffff;
   font-family: 'et-line';
-  font-display: swap;
 }
 
 .icon-googleplus::before {
@@ -2331,7 +2228,6 @@ form ul li .field-submit {
   font-size: 24px;
   color: #ffffff;
   font-family: 'et-line';
-  font-display: swap;
 }
 
 .icon-tumblr::before {
@@ -2340,7 +2236,6 @@ form ul li .field-submit {
   font-size: 24px;
   color: #ffffff;
   font-family: 'et-line';
-  font-display: swap;
 }
 
 .icon-linkedin::before {
@@ -2348,7 +2243,6 @@ form ul li .field-submit {
   font-size: 24px;
   color: #ffffff;
   font-family: 'et-line';
-  font-display: swap;
 }
 
 /** ==========================
@@ -2365,7 +2259,6 @@ form ul li .field-submit {
   text-transform: uppercase;
   color: #eec400;
   font-family: "Roboto-Bold";
-  font-display: swap;
 }
 
 .copyright p {
@@ -2376,5 +2269,4 @@ form ul li .field-submit {
   text-transform: uppercase;
   color: #ffffff;
   font-family: "Roboto-Light";
-  font-display: swap;
 }
