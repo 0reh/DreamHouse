@@ -272,7 +272,7 @@ a {
 */
 
 .dm-proj-cons {
-  background-image: url(../images/header/construction.png);
+  background-image: url(../images/header/construction.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -948,7 +948,7 @@ video {
   display: flex;
   justify-content: space-between;
   height: 370px;
-  background-image: url(../images/awards/construction3.png);
+  background-image: url(../images/awards/construction3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1776,7 +1776,7 @@ input[type="submit"] {
 .dm-proj-form {
   position: relative;
   height: 700px;
-  background-image: url(../images/contactus/form-map.png);
+  background-image: url(../images/contactus/form-map.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
