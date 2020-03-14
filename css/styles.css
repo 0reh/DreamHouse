@@ -185,7 +185,8 @@ a {
   margin: 36px 0px 71px 0px;
   border: none;
   border-radius: 5px;
-  background-image: url(../images/header/Rectangle-3.png);
+  background-color: #eec400;
+  color: #404040;
   background-repeat: no-repeat; 
   cursor: pointer;
   text-transform: uppercase;
@@ -193,10 +194,25 @@ a {
   font-family: "Roboto-Bold";
 }
 
+.contactus:hover {
+  background-color: #404040;
+  color:#eec400;
+  transition: 0.5s;
+}
+
 .contactus a {
   color: #000000;
   font-family: "Roboto-Bold";
 }
+
+.contactus a span {
+  vertical-align: sub;
+}
+
+.contactus a:hover {
+  color:#eec400;
+}
+
 
 .contactus2 {
   align-items: center;
@@ -204,14 +220,19 @@ a {
   width: 270px;
   height: 69px;
   margin: 71px 0px;
-  background-image: url(../images/header/Rectangle.png);
   border: none;
   border-radius: 5px;
   cursor: pointer;  
   text-transform: uppercase;
   font-size: 18px;
+  background-color: #404040;
   color: #ffffff;
   font-family: "Roboto-Bold";
+}
+
+.contactus2:hover {
+  background-color: #eec400;
+  color: #404040;
 }
 
 [data-icon]::after {
@@ -1263,7 +1284,6 @@ div .team-container {
   border-radius: 7px;
   border-width: 0px;
   cursor: pointer;
-  border-color: #E6C40B;
 }
 
 /** =============================
@@ -1567,6 +1587,12 @@ input[type="submit"] {
   background-color: #eec400;
 }
 
+input[type="submit"]:hover {
+  background-color: #404040;
+  transition: 0.5s;
+  color: #eec400;
+}
+
 /** ===============================
  *  Блок стилизации планов подписки
  *  ===============================
@@ -1671,6 +1697,8 @@ input[type="submit"] {
 
 .column button:hover {
   background-color: #eec400;
+  color:#878787;
+  transition: 0.5s;
   cursor: pointer;
   box-shadow: 0px 30px 25px 25px #f4f4f4;
 }
@@ -1732,6 +1760,33 @@ input[type="submit"] {
   font-size: 12px;
   text-transform: uppercase;
   font-family: "Roboto-Light";
+}
+
+.news-column-span2 a {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "Roboto-Light";
+  color: #000000;
+}
+
+.news-column-span2 a:hover {
+  color:#eec400;
+  font-weight: bold;
+  transition: 0.25s;
+}
+
+.news-column-span3 a {
+  position: relative;
+  margin-bottom: 38px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Roboto-Bold";
+  color: #000000;
+}
+
+.news-column-span3 a:hover {
+  color:#eec400;
+  transition: 0.25s;
 }
 
 .news-list .column .news-list-lorem {
@@ -1921,6 +1976,7 @@ textarea {
   text-transform: capitalize;
   font-family: "Raleway-Regular";
   background-color: #f8f7f7;
+  resize: none;
 }
 
 .field-style.field-split.align-left {
@@ -2024,12 +2080,21 @@ form ul li .field-submit {
   font-family: "icofont";
 }
 
+.contact-form-frame1:hover::before {
+  color: #eec400;
+}
+
 .contact-form-frame2::before {
   position: absolute;
   top: 15px;
   left: 17px;
   font-size: 36px;
   content: '\f008';
+  font-family: "icofont";
+}
+
+.contact-form-frame2:hover::before {
+  color: #eec400;
 }
 
 .contact-form-frame3::before {
@@ -2039,6 +2104,10 @@ form ul li .field-submit {
   font-size: 36px;
   content: '\ef12';
   font-family: "icofont";
+}
+
+.contact-form-frame3:hover::before {
+  color: #eec400;
 }
 
 /** ===================
@@ -2133,6 +2202,16 @@ form ul li .field-submit {
   font-family: "icofont";
 }
 
+.nav-flex-column-2 ul li:hover::before {
+  color: #eec400;
+  transition: 0.5s;
+}
+
+.nav-flex-column-2 ul li a:hover {
+  color: #eec400;
+  text-decoration: underline;
+}
+
 .nav-flex-column-2 ul {
   padding-left: 0px;
 }
@@ -2153,6 +2232,11 @@ form ul li .field-submit {
   content: '\ed7a';
   font-family: "icofont";
   color: #8e91ff;
+}
+
+.nav-flex-column-3 p:hover::before {
+  box-shadow: 0 0 5px #8e91ff;
+  border-radius: 15px;
 }
 
 .span-equa {
@@ -2214,12 +2298,24 @@ form ul li .field-submit {
   font-family: 'et-line';
 }
 
+.icon-facebook:hover::before {
+  box-shadow: 0 0 5px #eec400;
+  border-radius: 12px;
+  color: #eec400;
+}
+
 .icon-twitter::before {
   margin-right: 15px;
   content: '\e05e';
   font-size: 24px;
   color: #ffffff;
   font-family: 'et-line';
+}
+
+.icon-twitter:hover::before {
+  box-shadow: 0 0 5px #eec400;
+  border-radius: 12px;
+  color: #eec400;
 }
 
 .icon-googleplus::before {
@@ -2230,6 +2326,12 @@ form ul li .field-submit {
   font-family: 'et-line';
 }
 
+.icon-googleplus:hover::before {
+  box-shadow: 0 0 5px #eec400;
+  border-radius: 12px;
+  color: #eec400;
+}
+
 .icon-tumblr::before {
   margin-right: 15px;
   content: '\e061';
@@ -2238,11 +2340,23 @@ form ul li .field-submit {
   font-family: 'et-line';
 }
 
+.icon-tumblr:hover::before {
+  box-shadow: 0 0 5px #eec400;
+  border-radius: 12px;
+  color: #eec400;
+}
+
 .icon-linkedin::before {
   content: '\e062';
   font-size: 24px;
   color: #ffffff;
   font-family: 'et-line';
+}
+
+.icon-linkedin:hover::before {
+  box-shadow: 0 0 5px #eec400;
+  border-radius: 12px;
+  color: #eec400;
 }
 
 /** ==========================
@@ -2290,7 +2404,8 @@ form ul li .field-submit {
 }
 
 @media (max-width: 320px) {
-  .dm-proj-about {
+  .dm-proj-about,
+  .dm-proj-about .slick-list.draggable {
     width: 100%;
   }
 }
@@ -2313,7 +2428,7 @@ form ul li .field-submit {
 
 @media (max-width: 320px) {
    .slick-slider-lorem {
-    width: 26%;
+    width: 100%;
   }
 }
 
@@ -2522,7 +2637,8 @@ form ul li .field-submit {
 
 @media (max-width: 320px) {
   .nav-flex-column-4 p{
-    width: 277px;  
+    width: 320px;  
+    margin-left: 0px;
   }
 }
 
