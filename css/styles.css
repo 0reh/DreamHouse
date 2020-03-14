@@ -2285,7 +2285,7 @@ form ul li .field-submit {
 
 @media (max-width: 320px) {
   .dm-proj {
-    padding-bottom: 200px;
+    padding-bottom: 0px;
   }
 }
 
@@ -2472,7 +2472,8 @@ form ul li .field-submit {
 }
 
 @media (max-width: 320px) {
-  .dm-proj-clients .weareeverywhere {
+  .dm-proj-clients .weareeverywhere,
+  .slick-list.draggable {
     width: 100%;
   }
 }
