@@ -115,6 +115,44 @@ a {
   font-weight: bold;
 }
 
+.dm-proj .header__burger {
+  display: block;
+  display: none;
+  width: 40px;
+  height: 40px;
+  background-color: #404040;
+  position: relative;
+}
+
+.dm-proj .header__burger span, .dm-proj .header__burger span:before, .dm-proj .header__burger span:after {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -15px;
+  margin-top: -1px;
+}
+
+.dm-proj .header__burger span:before, 
+.dm-proj .header__burger span:after {
+  content: '';
+}
+
+.dm-proj .header__burger span:before {
+  -webkit-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+.dm-proj .header__burger span:after {
+  -webkit-transform: translateY(8px);
+  -ms-transform: translateY(8px);
+  transform: translateY(8px);
+}
+
 /** =======================
  *  Блок с первым слайдером
  *  =======================
@@ -2385,11 +2423,79 @@ form ul li .field-submit {
   font-family: "Roboto-Light";
 }
 
+/** ==========================
+ *  Мобильная версия для устройств 320px
+ *  ==========================
+*/
+
 @media (max-width: 320px) {
-  .navigation-bar {
-    display: none;
+.dm-proj .header__burger {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 95px;
   }
 }
+
+@media (max-width: 320px) {
+.dm-proj .header__burger span:before, 
+.dm-proj .header__burger span:after {
+    -webkit-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+  }
+}
+
+@media (max-width: 320px) {
+  .slick-next,
+  .slick-prev, {
+  display: none;
+  }
+}
+
+@media (max-width: 320px) {
+.dm-proj .navigation-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-top: 45px;
+  }
+}
+
+@media (max-width: 320px) {
+.dm-proj .navigation-bar ul li {
+    max-width: 150px;
+    margin: 0 auto 30px;
+  }
+}
+
+@media (max-width: 320px) {
+.dm-proj .navigation-bar.active {
+  right: 0;
+  background-color: #4c76ff;
+  -webkit-transition: all .4s ease 0s;
+  -o-transition: all .4s ease 0s;
+  transition: all .4s ease 0s;
+  }
+}
+
+  @media (max-width: 320px) {
+  .dm-proj .menu-desktop {
+      position: fixed;
+      right: -100%;
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      height: 100vh;
+    }
+  }
 
 @media (max-width: 320px) {
   .dm-proj .container {
@@ -2404,9 +2510,15 @@ form ul li .field-submit {
 }
 
 @media (max-width: 320px) {
+  .contactus {
+    margin: 20px 0px 71px 0px;
+  }
+}
+
+@media (max-width: 320px) {
   .dm-proj-about,
   .dm-proj-about .slick-list.draggable {
-    width: 100%;
+    width: 290px;
   }
 }
 
@@ -2428,7 +2540,14 @@ form ul li .field-submit {
 
 @media (max-width: 320px) {
    .slick-slider-lorem {
-    width: 100%;
+    width: 90%;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 290px;
+    padding: 0px;
   }
 }
 
@@ -2478,7 +2597,52 @@ form ul li .field-submit {
 @media (max-width: 320px) {
   .welcometo2,
   .strucbuilder {
-    font-size: 20px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width:320px) {
+  .column h3,
+  .column p, 
+  .column .p-starter,
+  .column .p-advanced,
+  .column .p-enterprise {
+    margin: 16px;
+    width: 160px;
+  }
+}
+
+@media (max-width: 320px) {
+  .column h3,
+  .column p,
+  .column .price,
+  .column .p-starter,
+  .column .p-advanced,
+  .column .p-enterprise,
+  .column .exclude-support,
+  .dm-proj-recentnews .p {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .news-list-cont,
+  .news-list .column p {
+    margin: 0px;
+    width: 290px;
+  }
+}
+
+@media (max-width: 320px) {
+.dm-proj-block-item-info p {
+  margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 320px) {
+  .dm-proj-block-item {
+    margin-bottom: 24px;
   }
 }
 
@@ -2496,9 +2660,8 @@ form ul li .field-submit {
   .fairprice,
   .support,
   .fastdelivery {
-    width: 320px;
-    height: 320px;
     background-image: none;
+    border: none;
   }
 }
 
@@ -2615,18 +2778,30 @@ form ul li .field-submit {
   .news-list .column {
     display: flex;
     flex-direction: column;
-    width: 320px;
+    width: 290px;
     box-shadow: none;
+    background-color: transparent;
+    height: 100%;
  }
 }
 
 @media (max-width: 320px) {
   .news-list {
+    width: 290px;
     display: flex;
     flex-direction: column;
     box-shadow: none;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 0px;
  }
+}
+
+@media (max-width: 320px) {
+.news-column-span3 a {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -2636,8 +2811,17 @@ form ul li .field-submit {
 }
 
 @media (max-width: 320px) {
+  .news-column-span,
+  .news-column-span2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 320px) {
   .nav-flex-column-4 p{
-    width: 320px;  
+    width: 290px;  
     margin-left: 0px;
   }
 }
