@@ -2433,7 +2433,7 @@ form ul li .field-submit {
   display: block;
   position: fixed;
   top: 0;
-  right: 95px;
+  right: 10px;
   }
 }
 
@@ -2651,7 +2651,7 @@ form ul li .field-submit {
     display: flex;
     flex-direction: column;
     justify-content: none;
-    width: auto;
+    width: 290px;
     margin: 0px;
   }
 }
@@ -2660,6 +2660,8 @@ form ul li .field-submit {
   .fairprice,
   .support,
   .fastdelivery {
+    width: 100%;
+    height: 100%;
     background-image: none;
     border: none;
   }
@@ -2694,6 +2696,14 @@ form ul li .field-submit {
 }
 
 @media (max-width: 320px) {
+.fairprice-p1-span,
+.support-p1-span,
+.fastdelivery-p1-span {
+    margin: 20px 0px 20px 0px;
+  }
+}
+
+@media (max-width: 320px) {
   video {
     display: none;
   }
@@ -2701,6 +2711,7 @@ form ul li .field-submit {
 
 @media (max-width: 320px) {
   .dm-proj-offer,
+  .dm-proj-welc,
   .dm-proj-projects,
   .dm-proj-testimonials,
   .dm-proj-team,
@@ -2797,6 +2808,13 @@ form ul li .field-submit {
 }
 
 @media (max-width: 320px) {
+  .news-list .column p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 320px) {
 .news-column-span3 a {
   display: flex;
   justify-content: center;
@@ -2806,6 +2824,7 @@ form ul li .field-submit {
 
 @media (max-width: 320px) {
   .nav-flex {
+    width: 290px;
     flex-direction: column;  
   }
 }
@@ -2820,9 +2839,9 @@ form ul li .field-submit {
 }
 
 @media (max-width: 320px) {
-  .nav-flex-column-4 p{
-    width: 290px;  
+  .nav-flex-column-4 {
     margin-left: 0px;
+    width: 290px;
   }
 }
 
@@ -2830,5 +2849,17 @@ form ul li .field-submit {
   .nav-flex {
     flex-direction: column; 
     margin-left: 0px; 
+  }
+}
+
+@media (max-width: 320px) {
+  .copyright {
+    width: 320px;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    width: 320px;
   }
 }
