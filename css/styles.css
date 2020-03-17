@@ -2586,6 +2586,7 @@ form ul li .field-submit {
   .dm-proj-testimonials .container .p,
   .dm-proj-testimonials .container .p2,
   .awards,
+  .p2,
   .dm-proj-form,
   .dm-proj-contact-form,
   .dm-proj-newsletter,
@@ -2632,6 +2633,11 @@ form ul li .field-submit {
     margin: 0px;
     width: 290px;
   }
+}
+
+@media (max-width: 320px) {
+  .slick-next {
+    display: none;
 }
 
 @media (max-width: 320px) {
@@ -2861,5 +2867,12 @@ form ul li .field-submit {
 @media (max-width: 320px) {
   body {
     width: 320px;
+  }
+}
+
+@media (max-width: 320px) {
+  .dm-proj-plan .container .p, .p2 {
+    margin-top: 14px;
+    margin-bottom: 14px;
   }
 }
