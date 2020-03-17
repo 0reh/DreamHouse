@@ -381,9 +381,9 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 370px;
-  height: 370px;
-  background-image: url(../images/welcome/02.png);
+  width: 364px;
+  height: 364px;
+  border: 3px solid #eec400;
 }
 
 .fairprice:hover,
@@ -437,7 +437,7 @@ a {
   flex-direction: column;
   margin: 0 auto;
   padding-right: 26px;
-  padding-left: 28px;
+  padding-left: 26px;
   font-size: 14px;
   color: #000000;
   font-family: "Raleway-Regular";
@@ -457,9 +457,9 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 370px;
-  height: 370px;
-  background-image: url(../images/welcome/02.png);
+  width: 364px;
+  height: 364px;
+  border: 3px solid #eec400;
 }
 
 .support:hover div, 
@@ -510,7 +510,7 @@ a {
   flex-direction: column;
   margin: 0 auto;
   padding-right: 26px;
-  padding-left: 28px;
+  padding-left: 26px;
   font-size: 14px;
   color: #000000;
   font-family: "Raleway-Regular";
@@ -520,9 +520,9 @@ a {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 370px;
-  height: 370px;
-  background-image: url(../images/welcome/02.png);
+  width: 364px;
+  height: 364px;
+  border: 3px solid #eec400;
 }
 
 .fastdelivery:hover div, 
@@ -573,7 +573,7 @@ a {
   flex-direction: column;
   margin: 0 auto;
   padding-right: 26px;
-  padding-left: 28px;
+  padding-left: 26px;
   font-size: 14px;
   color: #000000;
   font-family: "Raleway-Regular";
