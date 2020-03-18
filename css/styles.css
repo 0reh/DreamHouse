@@ -2418,9 +2418,9 @@ form ul li .field-submit {
   font-family: "Roboto-Light";
 }
 
-/** ==========================
+/** ====================================
  *  Мобильная версия для устройств 320px
- *  ==========================
+ *  ====================================
 */
 
 @media (max-width: 320px) {
@@ -2500,6 +2500,9 @@ form ul li .field-submit {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: absolute;
+  top: 235px;
+  left: 38px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -2507,7 +2510,6 @@ form ul li .field-submit {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  margin-top: 260px;
   padding-left: 0px;
   }
 }
@@ -2556,7 +2558,7 @@ form ul li .field-submit {
 @media (max-width: 320px) {
   .dm-proj {
     padding-bottom: 0px;
-    height: 110vh;
+    height: 115vh;
   }
 }
 
