@@ -139,3 +139,9 @@ $(document).ready(function() {
       $('body,html').animate({ scrollTop: top }, 900);
   });
 });
+
+$(document).ready(function(){
+  $('.slick-slider').slick({dots: true, arrows: true});
+  $('.testimonials-slider').slick({slidesToShow: 1, vertical: true, arrows: true});
+  $('.slick-slider-team').slick({autoplay: false,dots: true, arrows: false});
+});
