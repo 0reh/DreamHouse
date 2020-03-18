@@ -115,3 +115,27 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+$(document).ready(function() {
+  $('.header__burger').click(function(event) {
+      $('.header__burger').toggleClass('active');
+      $('body').toggleClass('lock');
+  });
+  $('.header__burger').click(function(event) {
+      $('.menu-desktop').toggleClass('active');
+  });
+
+  $("#menu-desktop").on("click", "a", function(event) {
+      event.preventDefault();
+      let id = $(this).attr('href'),
+          top = $(id).offset().top - 0 + 'px';
+      $('body,html').animate({ scrollTop: top }, 900);
+  });
+
+  $("#menu-desktop.active").on("click", "a", function(event) {
+      event.preventDefault();
+      let id = $(this).attr('href'),
+          top = $(id).offset().top - 0 + 'px';
+      $('body,html').animate({ scrollTop: top }, 900);
+  });
+});
