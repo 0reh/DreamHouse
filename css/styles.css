@@ -251,7 +251,6 @@ a {
   color:#eec400;
 }
 
-
 .contactus2 {
   align-items: center;
   justify-content: center;
@@ -319,10 +318,6 @@ a {
 
 .slick-dots li.slick-active {
   width: 40px;
-}
-
-.slick-slider.slick-initialized.slick-dotted {
-  width: 100%;
 }
 
 /** =========================
@@ -2447,8 +2442,8 @@ form ul li .field-submit {
 }
 
 @media (max-width: 320px) {
-  .slick-next,
-  .slick-prev, {
+  .slick-list.draggable .slick-next,
+  .slick-list.draggable .slick-prev {
   display: none;
   }
 }
@@ -2587,6 +2582,7 @@ form ul li .field-submit {
   .dm-proj-testimonials .container .p2,
   .awards,
   .p2,
+  .slick-slider.slick-initialized.slick-dotted .slick-next.slick-arrow,
   .dm-proj-form,
   .dm-proj-contact-form,
   .dm-proj-newsletter,
@@ -2822,9 +2818,9 @@ form ul li .field-submit {
 
 @media (max-width: 320px) {
 .news-column-span3 a {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 24px;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 24px;
   }
 }
 
@@ -2874,5 +2870,20 @@ form ul li .field-submit {
   .dm-proj-plan .container .p, .p2 {
     margin-top: 14px;
     margin-bottom: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .nav-flex-column-2 h3,
+  .nav-flex-column-3 h3,
+  .nav-flex-column-4 h3,
+  .nav-flex-column-1 p {
+  margin-top: 30px;
+}
+
+@media (max-width: 320px) {
+  .slick-next.slick-arrow,
+  .slick-prev.slick-arrow {
+    display: none !important;
   }
 }
