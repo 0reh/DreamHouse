@@ -2501,6 +2501,7 @@ form ul li .field-submit {
 @media (max-width: 320px) {
   .dm-proj {
     padding-bottom: 0px;
+    padding-bottom: 20px;
   }
 }
 
@@ -2868,6 +2869,7 @@ form ul li .field-submit {
 
 @media (max-width: 320px) {
   .dm-proj-plan .container .p, .p2 {
+    padding-top: 18px;
     margin-top: 14px;
     margin-bottom: 14px;
   }
