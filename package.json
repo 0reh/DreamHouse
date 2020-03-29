@@ -21,6 +21,7 @@
     "gulp-uglify": "^3.0.2"
   },
   "dependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "npm-git-install": "^0.3.0"
   }
 }

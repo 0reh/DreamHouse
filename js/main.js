@@ -144,4 +144,7 @@ $(document).ready(function(){
   $('.slick-slider').slick({dots: true, arrows: true});
   $('.testimonials-slider').slick({slidesToShow: 1, vertical: true, arrows: true});
   $('.slick-slider-team').slick({autoplay: false,dots: true, arrows: false});
+  $('.fancybox').fancybox({infobar: true, toolbar: true});    
 });
+
+  
