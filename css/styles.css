@@ -2639,7 +2639,7 @@ form ul li .field-submit {
  *  ====================================
 */
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .dm-proj-offer, .dm-proj-welc, .dm-proj-projects, .dm-proj-testimonials, .dm-proj-team, .dm-proj-clients, .dm-proj-newsletter, .dm-proj-plan, .price-list, .dm-proj-recentnews, .news-list {padding-top: 10px;}
   .dm-proj .header__burger {display: block;position: fixed;top: 0;right: 0;z-index: 100;}
   .dm-proj .header__burger.active span:before {width: 10px; -webkit-transform: rotate(-45deg);-ms-transform: rotate(-45deg);transform: rotate(-45deg);-webkit-transform-origin: left bottom;-ms-transform-origin: left bottom;transform-origin: left bottom;-webkit-transition: all .4s ease 0s;-o-transition: all .4s ease 0s;transition: all .4s ease 0s;}
