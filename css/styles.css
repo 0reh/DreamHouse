@@ -196,10 +196,6 @@ body {
   list-style: none;  
 }
 
-.navigation-bar li .icofont-lock {
-  margin-left: 28px;
-}
-
 a {
   text-decoration: none;
   color: #ffffff;
@@ -2647,7 +2643,7 @@ form ul li .field-submit {
   .dm-proj .menu-desktop ul li {max-width: 150px;margin: 21px 0px 0px 0px;font-size: 13px;z-index: 99;}
   .dm-proj .menu-desktop ul {display: -webkit-box;display: -ms-flexbox;display: flex;position: absolute;top: 280px;left: 38px;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;-webkit-box-pack: start;-ms-flex-pack: start;justify-content: flex-start;padding-left: 0px;}
   .dm-proj .menu-desktop.active {right: 0;background-color: #1f1f1f;-webkit-transition: all .4s ease 0s;-o-transition: all .4s ease 0s;transition: all .4s ease 0s;z-index: 99;}
-  .dm-proj .menu-desktop {position: fixed;right: -100%;display: block;width: 40%;max-width: 100%;height: 115vh;}
+  .dm-proj .menu-desktop {position: fixed;right: -100%;display: block;width: 40%;max-width: 100%;height: 125vh;}
   .dm-proj .container {justify-content: center;}
   .dm-proj {padding-bottom: 0px;height: 115vh;}
   .contactus {margin: 20px 0px 71px 0px;}
