@@ -2837,7 +2837,7 @@ form ul li .field-submit {
   .dm-proj {padding-bottom: 0px;height: 110vh;}
   .slick-slider.slick-initialized.slick-dotted {width:93%;}
   .contactus {margin: 20px 0px 71px 0px;}
-  .dm-proj-about, .dm-proj-about .slick-list.draggable {width: 375px;}
+  .dm-proj-about, .dm-proj-about .slick-list.draggable {width: 100%;}
   .slider-top {font-size: 22px;}
   .slider-top-dream,.slider-top-dream-house,.fastandsafe,.consult-q,.welcometo2 {font-size: 26px;}
   .slick-slider-lorem {width: 90%;}
