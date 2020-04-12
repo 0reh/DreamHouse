@@ -2635,12 +2635,12 @@ form ul li .field-submit {
 }
 
 
-/** ===========================================
- *  Мобильная версия для устройств 769px-1366px
- *  ===========================================
+/** =====================================
+ *  Мобильная версия для устройств 1366px
+ *  =====================================
 */
 
-@media (max-width: 1366px) and (min-width: 769px) {
+@media (max-width: 1366px) {
   .dm-proj-offer, .dm-proj-welc, .dm-proj-projects, .dm-proj-testimonials, .dm-proj-team, .dm-proj-clients, .dm-proj-newsletter, .dm-proj-plan, .price-list, .dm-proj-recentnews, .news-list {padding-top: 10px;}
   .dm-proj .container {justify-content: center;}
   .dm-proj {padding-bottom: 0px;height: 100vh;}
@@ -2651,26 +2651,24 @@ form ul li .field-submit {
   .slider-top {font-size: 22px;}
   .slider-top-dream,.slider-top-dream-house,.fastandsafe,.consult-q,.welcometo2 {font-size: 26px;}
   .slick-slider-lorem {width: 90%;}
-  .container {width: 100%;padding: 0px;}
+  .container {width: 95%;padding: 0px;margin-left: 2.5%;margin-right: 2.5%;}
   .slick-dots li.slick-active button:before,.slick-dots li button:before {display: none;}
   .consult-m {font-size: 12px;}
-  [data-icon]::after,.contactus2,.youaremost::before,.youaremost::after,.youaremost2::before,.youaremost2::after,.dm-proj-testimonials,.clients,.dm-proj-plan img,.dm-proj-clients div img,.dm-proj-testimonials .container .p,.dm-proj-testimonials .container .p2,.awards,.p2,.dm-proj-form,.dm-proj-contact-form,.dm-proj-newsletter,.slick-slider-team.slick-initialized.slick-slider.slick-dotted {display: none;}
+  [data-icon]::after,video,.video .btn-play-main,.video .controls .buttons,.dm-proj .menu-desktop ul img,.contactus2,.youaremost::before,.youaremost::after,.youaremost2::before,.youaremost2::after,.dm-proj-testimonials,.clients,.dm-proj-plan img,.dm-proj-clients div img,.dm-proj-testimonials .container .p,.dm-proj-testimonials .container .p2,.awards,.p2,.dm-proj-form,.dm-proj-contact-form,.dm-proj-newsletter,.slick-slider-team.slick-initialized.slick-slider.slick-dotted {display: none;}
   .news-list-cont,.news-list .column p {margin: 0px;width: 100%;}
   .welcometo2,.strucbuilder {font-size: 18px;}
   .column h3,.column p, .column .p-starter,.column .p-advanced,.column .p-enterprise {margin: 16px;width: 160px;}
   .column h3,.column p,.column .price,.column .p-starter,.column .p-advanced,.column .p-enterprise,.column .exclude-support,.dm-proj-recentnews .p {display: flex;justify-content: center;}
   .dm-proj-block-item-info p {margin-bottom: 0px;}
   .dm-proj-block-item {margin-bottom: 24px;}
-  .fairprice-support-delivery {display: flex;flex-direction: column;justify-content: none;width: 100%;margin: 0px;}
+  .fairprice-support-delivery {display: flex;flex-direction: column;width: 100%;margin: 0px;}
   .fairprice,.support,.fastdelivery {width: 100%;height: 100%;background-image: none;border: none;}
   .fairprice::before,.support::before,.fastdelivery::before {margin-top: 0px;font-size: 45px;}
   .fairprice-p1,.support-p1,.fastdelivery-p1 {font-size: 20px;}
   .fairprice-p2,.support-p2,.fastdelivery-p2 {padding: 0px;width: 90%;margin: 0px;display: block;}
   .fairprice-p1-span,.support-p1-span,.fastdelivery-p1-span {margin: 20px 0px 20px 0px;}
-  video {display: none;}
   .youaremost2 {justify-content: center;}
   .welcometo3 {justify-content: center;}
-  .video .btn-play-main,.video .controls .buttons,.dm-proj .menu-desktop ul img {display: none;}
   .dm-proj-offer-block {margin-top: 0px;}
   .dm-proj-block-item {margin-top: 10px;padding: 0px;}
   .btn-contact-us .contactus,.weareeverywhere .contactus {margin: 0 auto;}
@@ -2688,10 +2686,7 @@ form ul li .field-submit {
   .nav-flex-column-1 {width: 264px;}
   .nav-flex-column-2 {width: 272px;}
   .nav-flex-column-4 {margin-left: 0px;width: 270px;}
-  .copyright {width: 100%;}
-  body {width: 100%;}
   .dm-proj-plan .container .p, .p2 {padding-top: 18px;margin-top: 14px;margin-bottom: 14px;}
-  .nav-flex-column-2 h3,.nav-flex-column-3 h3,.nav-flex-column-4 h3,.nav-flex-column-1 p {margin-top: 30px;}
   .slick-next.slick-arrow,.slick-prev.slick-arrow {display: none !important;}
 }
 
@@ -2701,64 +2696,18 @@ form ul li .field-submit {
 */
 
 @media (max-width: 768px) {
-  .dm-proj-offer, .dm-proj-welc, .dm-proj-projects, .dm-proj-testimonials, .dm-proj-team, .dm-proj-clients, .dm-proj-newsletter, .dm-proj-plan, .price-list, .dm-proj-recentnews, .news-list {padding-top: 10px;}
-  .dm-proj .header__burger {display: block;position: fixed;top: 0;right: 12px;z-index: 100; height: 32px;}
+  .dm-proj .header__burger {display: block;position: fixed;top: 0;right: 0;z-index: 100; height: 32px;}
   .dm-proj .header__burger.active span:before {width: 10px; -webkit-transform: rotate(-45deg);-ms-transform: rotate(-45deg);transform: rotate(-45deg);-webkit-transform-origin: left bottom;-ms-transform-origin: left bottom;transform-origin: left bottom;-webkit-transition: all .4s ease 0s;-o-transition: all .4s ease 0s;transition: all .4s ease 0s;}
   .dm-proj .header__burger.active span:after {width: 10px;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);-webkit-transform-origin: left top;-ms-transform-origin: left top;transform-origin: left top;-webkit-transition: all .4s ease 0s;-o-transition: all .4s ease 0s;transition: all .4s ease 0s;}
   .dm-proj .menu-desktop ul li {max-width: 150px;margin: 21px 0px 0px 0px;font-size: 13px;z-index: 99;}
   .dm-proj .menu-desktop ul {display: -webkit-box;display: -ms-flexbox;display: flex;position: absolute;top: 370px;left: 38px;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;-webkit-box-pack: start;-ms-flex-pack: start;justify-content: flex-start;padding-left: 0px;}
   .dm-proj .menu-desktop.active {right: 0;background-color: #1f1f1f;-webkit-transition: all .4s ease 0s;-o-transition: all .4s ease 0s;transition: all .4s ease 0s;z-index: 99;}
   .dm-proj .menu-desktop {position: fixed;right: -100%;display: block;width: 18%;max-width: 100%;height: 80vh;}
-  .dm-proj .container {justify-content: center;}
-  .dm-proj {padding-bottom: 0px;height: 100vh;}
-  .slick-slider.slick-initialized.slick-dotted {width:96%;}
-  .contactus {margin: 20px 0px 71px 0px;}
-  .dm-proj-about, .dm-proj-about .slick-list.draggable {width: 88%;}
-  .slider-top {font-size: 22px;}
-  .slider-top-dream,.slider-top-dream-house,.fastandsafe,.consult-q,.welcometo2 {font-size: 26px;}
-  .slick-slider-lorem {width: 90%;}
-  .container {padding: 0px;}
-  .slick-dots li.slick-active button:before,.slick-dots li button:before {display: none;}
-  .consult-m {font-size: 12px;}
-  [data-icon]::after,.contactus2,.youaremost::before,.youaremost::after,.youaremost2::before,.youaremost2::after,.dm-proj-projects-menu,.slick-slider-projects,.dm-proj-testimonials,.clients,.dm-proj-plan img,.dm-proj-clients div img,.dm-proj-testimonials .container .p,.dm-proj-testimonials .container .p2,.awards,.p2,.dm-proj-form,.dm-proj-contact-form,.dm-proj-newsletter,.slick-slider-team.slick-initialized.slick-slider.slick-dotted {display: none;}
+  [data-icon]::after,.contactus2, video, .youaremost::before,.youaremost::after,.youaremost2::before,.youaremost2::after,.dm-proj-projects-menu,.slick-slider-projects,.dm-proj-testimonials,.clients,.dm-proj-plan img,.dm-proj-clients div img,.dm-proj-testimonials .container .p,.dm-proj-testimonials .container .p2,.awards,.p2,.dm-proj-form,.dm-proj-contact-form,.dm-proj-newsletter,.slick-slider-team.slick-initialized.slick-slider.slick-dotted {display: none;}
   .news-list-cont,.news-list .column p {margin: 0px;width: 738px;}
-  .welcometo2,.strucbuilder {font-size: 18px;}
-  .column h3,.column p, .column .p-starter,.column .p-advanced,.column .p-enterprise {margin: 16px;width: 160px;}
   .column h3,.column p,.column .price,.column .p-starter,.column .p-advanced,.column .p-enterprise,.column .exclude-support,.dm-proj-recentnews .p {display: flex;justify-content: center;}
-  .dm-proj-block-item-info p {margin-bottom: 0px;}
-  .dm-proj-block-item {margin-bottom: 24px;}
-  .fairprice-support-delivery {display: flex;flex-direction: column;justify-content: none;width: 738px;margin: 0px;}
-  .fairprice,.support,.fastdelivery {width: 100%;height: 100%;background-image: none;border: none;}
-  .fairprice::before,.support::before,.fastdelivery::before {margin-top: 0px;font-size: 45px;}
-  .fairprice-p1,.support-p1,.fastdelivery-p1 {font-size: 20px;}
-  .fairprice-p2,.support-p2,.fastdelivery-p2 {padding: 0px;width: 90%;margin: 0px;display: block;}
-  .fairprice-p1-span,.support-p1-span,.fastdelivery-p1-span {margin: 20px 0px 20px 0px;}
-  video {display: none;}
-  .youaremost2 {justify-content: center;}
-  .welcometo3 {justify-content: center;}
-  .video .btn-play-main,.video .controls .buttons,.dm-proj .menu-desktop ul img {display: none;}
-  .dm-proj-offer-block {margin-top: 0px;}
-  .dm-proj-block-item {margin-top: 10px;padding: 0px;}
-  .btn-contact-us .contactus,.weareeverywhere .contactus {margin: 0 auto;}
-  .dm-proj-clients .container {justify-content: none;padding-top: 20px;}
-  .dm-proj-clients .weareeverywhere,.slick-list.draggable {width: 100%;}
-  .price-list .column {flex-direction: column;padding-top: 20px;width: 0px;box-shadow: none;}
-  .price-list {display: flex;align-items: center;padding-bottom: 20px;justify-content: space-around;}
-  .news-list .column {display: flex;flex-direction: column;box-shadow: none;background-color: transparent;height: 100%;align-items: center;}
   .news-list {width: 738px;display: flex;flex-direction: column;box-shadow: none;padding-top: 25px;padding-bottom: 0px;align-items: center;}
-  .news-list .column p {margin-top: 20px;margin-bottom: 20px;}
-  .news-column-span3 a {display: flex;justify-content: center;margin-bottom: 24px;}
   .nav-flex {width: 738px;flex-direction: row;}
-  .news-column-span, .news-column-span2 {display: flex;justify-content: center;margin-top: 0px;}
-  .nav-flex-column-1, .nav-flex-column-2 {margin-right: 20px;}
-  .nav-flex-column-1 {width: 264px;}
-  .nav-flex-column-2 {width: 272px;}
-  .nav-flex-column-4 {margin-left: 0px;width: 270px;}
-  .copyright {width: 768px;}
-  body {width: 768px;}
-  .dm-proj-plan .container .p, .p2 {padding-top: 18px;margin-top: 14px;margin-bottom: 14px;}
-  .nav-flex-column-2 h3,.nav-flex-column-3 h3,.nav-flex-column-4 h3,.nav-flex-column-1 p {margin-top: 30px;}
-  .slick-next.slick-arrow,.slick-prev.slick-arrow {display: none !important;}
 }
 
 /** ========================================================
@@ -2767,60 +2716,21 @@ form ul li .field-submit {
 */
 
 @media (max-width: 414px) {
-  .dm-proj-offer, .dm-proj-welc, .dm-proj-projects, .dm-proj-testimonials, .dm-proj-team, .dm-proj-clients, .dm-proj-newsletter, .dm-proj-plan, .price-list, .dm-proj-recentnews, .news-list {padding-top: 10px;}
-  .dm-proj .header__burger {display: block;position: fixed;top: 0;right: 0;z-index: 100; height: 32px;}
-  .dm-proj .header__burger.active span:before {width: 10px; -webkit-transform: rotate(-45deg);-ms-transform: rotate(-45deg);transform: rotate(-45deg);-webkit-transform-origin: left bottom;-ms-transform-origin: left bottom;transform-origin: left bottom;-webkit-transition: all .4s ease 0s;-o-transition: all .4s ease 0s;transition: all .4s ease 0s;}
-  .dm-proj .header__burger.active span:after {width: 10px;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);-webkit-transform-origin: left top;-ms-transform-origin: left top;transform-origin: left top;-webkit-transition: all .4s ease 0s;-o-transition: all .4s ease 0s;transition: all .4s ease 0s;}
-  .dm-proj .menu-desktop ul li {max-width: 150px;margin: 21px 0px 0px 0px;font-size: 13px;z-index: 99;}
   .dm-proj .menu-desktop ul {display: -webkit-box;display: -ms-flexbox;display: flex;position: absolute;top: 422px;left: 38px;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;-webkit-box-pack: start;-ms-flex-pack: start;justify-content: flex-start;padding-left: 0px;}
-  .dm-proj .menu-desktop.active {right: 0;background-color: #1f1f1f;-webkit-transition: all .4s ease 0s;-o-transition: all .4s ease 0s;transition: all .4s ease 0s;z-index: 99;}
   .dm-proj .menu-desktop {position: fixed;right: -100%;display: block;width: 30%;max-width: 100%;height: 115vh;}
-  .dm-proj .container {justify-content: center;}
-  .dm-proj {padding-bottom: 0px;height: 100vh;}
   .slick-slider.slick-initialized.slick-dotted {width:93%;}
-  .contactus {margin: 20px 0px 71px 0px;}
   .dm-proj-about, .dm-proj-about .slick-list.draggable {width: 87%;}
-  .slider-top {font-size: 22px;}
-  .slider-top-dream,.slider-top-dream-house,.fastandsafe,.consult-q,.welcometo2 {font-size: 26px;}
-  .slick-slider-lorem {width: 90%;}
-  .container {width: 384px;padding: 0px;}
-  .slick-dots li.slick-active button:before,.slick-dots li button:before {display: none;}
-  .consult-m {font-size: 12px;}
-  [data-icon]::after,.contactus2,.youaremost::before,.youaremost::after,.youaremost2::before,.youaremost2::after,.dm-proj-projects-menu,.slick-slider-projects,.dm-proj-testimonials,.clients,.dm-proj-plan img,.dm-proj-clients div img,.dm-proj-testimonials .container .p,.dm-proj-testimonials .container .p2,.awards,.p2,.dm-proj-form,.dm-proj-contact-form,.dm-proj-newsletter,.slick-slider-team.slick-initialized.slick-slider.slick-dotted {display: none;}
+  [data-icon]::after,video, .contactus2,.youaremost::before,.youaremost::after,.youaremost2::before,.youaremost2::after,.dm-proj-projects-menu,.slick-slider-projects,.dm-proj-testimonials,.clients,.dm-proj-plan img,.dm-proj-clients div img,.dm-proj-testimonials .container .p,.dm-proj-testimonials .container .p2,.awards,.p2,.dm-proj-form,.dm-proj-contact-form,.dm-proj-newsletter,.slick-slider-team.slick-initialized.slick-slider.slick-dotted {display: none;}
   .news-list-cont,.news-list .column p {margin: 0px;width: 384px;}
-  .welcometo2,.strucbuilder {font-size: 18px;}
-  .column h3,.column p, .column .p-starter,.column .p-advanced,.column .p-enterprise {margin: 16px;width: 160px;}
   .column h3,.column p,.column .price,.column .p-starter,.column .p-advanced,.column .p-enterprise,.column .exclude-support,.dm-proj-recentnews .p {display: flex;justify-content: center;}
-  .dm-proj-block-item-info p {margin-bottom: 0px;}
-  .dm-proj-block-item {margin-bottom: 24px;}
-  .fairprice-support-delivery {display: flex;flex-direction: column;justify-content: none;width: 384px;margin: 0px;}
-  .fairprice,.support,.fastdelivery {width: 100%;height: 100%;background-image: none;border: none;}
-  .fairprice::before,.support::before,.fastdelivery::before {margin-top: 0px;font-size: 45px;}
-  .fairprice-p1,.support-p1,.fastdelivery-p1 {font-size: 20px;}
-  .fairprice-p2,.support-p2,.fastdelivery-p2 {padding: 0px;width: 90%;margin: 0px;display: block;}
-  .fairprice-p1-span,.support-p1-span,.fastdelivery-p1-span {margin: 20px 0px 20px 0px;}
-  video {display: none;}
-  .video .btn-play-main,.video .controls .buttons,.dm-proj .menu-desktop ul img {display: none;}
   .dm-proj-offer-block {margin-top: 0px;display: block;}
-  .dm-proj-block-item {margin-top: 10px;padding: 0px;}
-  .btn-contact-us .contactus,.weareeverywhere .contactus {margin: 0 auto;}
-  .dm-proj-clients .container {justify-content: none;padding-top: 20px;}
-  .dm-proj-clients .weareeverywhere,.slick-list.draggable {width: 100%;}
-  .price-list .column {flex-direction: column;padding-top: 20px;width: 0px;box-shadow: none;}
   .price-list {display: flex;flex-direction: column;align-items: center;padding-bottom: 20px;}
   .news-list .column {display: flex;flex-direction: column;width: 384px;box-shadow: none;background-color: transparent;height: 100%;}
   .news-list {width: 384px;display: flex;flex-direction: column;box-shadow: none;padding-top: 25px;padding-bottom: 0px;}
-  .news-list .column p {margin-top: 20px;margin-bottom: 20px;}
-  .news-column-span3 a {display: flex;justify-content: center;margin-bottom: 24px;}
   .nav-flex {width: 384px;flex-direction: column;}
   .news-column-span,.news-column-span2 {display: flex;justify-content: center;margin-top: 0px;}
   .nav-flex-column-4 {margin-left: 0px;width: 384px;}
-  .nav-flex {flex-direction: column;margin-left: 0px;}
-  .copyright {width: 414px;}
-  body {width: 414px;}
-  .dm-proj-plan .container .p, .p2 {padding-top: 18px;margin-top: 14px;margin-bottom: 14px;}
-  .nav-flex-column-2 h3,.nav-flex-column-3 h3,.nav-flex-column-4 h3,.nav-flex-column-1 p {margin-top: 30px;}
-  .slick-next.slick-arrow,.slick-prev.slick-arrow {display: none !important;}
+  .nav-flex {flex-direction: column; margin-left: 0px;}
 }
 
 /** ========================================================
@@ -2829,60 +2739,20 @@ form ul li .field-submit {
 */
 
 @media (max-width: 375px) {
-  .dm-proj-offer, .dm-proj-welc, .dm-proj-projects, .dm-proj-testimonials, .dm-proj-team, .dm-proj-clients, .dm-proj-newsletter, .dm-proj-plan, .price-list, .dm-proj-recentnews, .news-list {padding-top: 10px;}
-  .dm-proj .header__burger {display: block;position: fixed;top:-3px;right: 0px;z-index: 100; width: 35px; height: 35px;}
-  .dm-proj .header__burger.active span:before {width: 10px; -webkit-transform: rotate(-45deg);-ms-transform: rotate(-45deg);transform: rotate(-45deg);-webkit-transform-origin: left bottom;-ms-transform-origin: left bottom;transform-origin: left bottom;-webkit-transition: all .4s ease 0s;-o-transition: all .4s ease 0s;transition: all .4s ease 0s;}
-  .dm-proj .header__burger.active span:after {width: 10px;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);-webkit-transform-origin: left top;-ms-transform-origin: left top;transform-origin: left top;-webkit-transition: all .4s ease 0s;-o-transition: all .4s ease 0s;transition: all .4s ease 0s;}
-  .dm-proj .menu-desktop ul li {max-width: 150px;margin: 21px 0px 0px 0px;font-size: 13px;z-index: 99;}
   .dm-proj .menu-desktop ul {display: -webkit-box;display: -ms-flexbox;display: flex;position: absolute;top: 360px;left: 25px;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;-webkit-box-pack: start;-ms-flex-pack: start;justify-content: flex-start;padding-left: 0px;}
-  .dm-proj .menu-desktop.active {right: 0;background-color: #1f1f1f;-webkit-transition: all .4s ease 0s;-o-transition: all .4s ease 0s;transition: all .4s ease 0s;z-index: 99;}
   .dm-proj .menu-desktop {position: fixed;right: -100%;display: block;width: 30%;max-width: 100%;height: 120vh;}
-  .dm-proj .container {justify-content: center; width: 100%;}
-  .dm-proj {padding-bottom: 0px;height: 110vh;}
   .slick-slider.slick-initialized.slick-dotted {width:100%;}
-  .contactus {margin: 20px 0px 71px 0px;}
   .dm-proj-about {width: 92%;}
   .dm-proj-about .slick-list.draggable {width: 100%;}
-  .slider-top {font-size: 22px;}
-  .slider-top-dream,.slider-top-dream-house,.fastandsafe,.consult-q,.welcometo2 {font-size: 26px;}
-  .slick-slider-lorem {width: 90%;}
-  .container {width: 345px;padding: 0px;}
-  .slick-dots li.slick-active button:before,.slick-dots li button:before {display: none;}
-  .consult-m {font-size: 12px;}
-  [data-icon]::after,.contactus2,.youaremost::before,.youaremost::after,.youaremost2::before,.youaremost2::after,.dm-proj-projects-menu,.slick-slider-projects,.dm-proj-testimonials,.clients,.dm-proj-plan img,.dm-proj-clients div img,.dm-proj-testimonials .container .p,.dm-proj-testimonials .container .p2,.awards,.p2,.dm-proj-form,.dm-proj-contact-form,.dm-proj-newsletter,.slick-slider-team.slick-initialized.slick-slider.slick-dotted {display: none;}
+  [data-icon]::after,video, .contactus2,.youaremost::before,.youaremost::after,.youaremost2::before,.youaremost2::after,.dm-proj-projects-menu,.slick-slider-projects,.dm-proj-testimonials,.clients,.dm-proj-plan img,.dm-proj-clients div img,.dm-proj-testimonials .container .p,.dm-proj-testimonials .container .p2,.awards,.p2,.dm-proj-form,.dm-proj-contact-form,.dm-proj-newsletter,.slick-slider-team.slick-initialized.slick-slider.slick-dotted {display: none;}
   .news-list-cont,.news-list .column p {margin: 0px;width: 375px;}
-  .welcometo2,.strucbuilder {font-size: 18px;}
-  .column h3,.column p, .column .p-starter,.column .p-advanced,.column .p-enterprise {margin: 16px;width: 160px;}
   .column h3,.column p,.column .price,.column .p-starter,.column .p-advanced,.column .p-enterprise,.column .exclude-support,.dm-proj-recentnews .p {display: flex;justify-content: center;}
-  .dm-proj-block-item-info p {margin-bottom: 0px;}
-  .dm-proj-block-item {margin-bottom: 24px;}
-  .fairprice-support-delivery {display: flex;flex-direction: column;justify-content: none;width: 100%;margin: 0px; text-align: center;}
-  .fairprice,.support,.fastdelivery {width: 100%;height: 100%;background-image: none;border: none;}
-  .fairprice::before,.support::before,.fastdelivery::before {margin-top: 0px;font-size: 45px;}
-  .fairprice-p1,.support-p1,.fastdelivery-p1 {font-size: 20px;}
-  .fairprice-p2,.support-p2,.fastdelivery-p2 {padding: 0px;width: 90%;margin: 0px;display: block;}
-  .fairprice-p1-span,.support-p1-span,.fastdelivery-p1-span {margin: 20px 0px 20px 0px;}
-  video {display: none;}
-  .video .btn-play-main,.video .controls .buttons,.dm-proj .menu-desktop ul img {display: none;}
-  .dm-proj-offer-block {margin-top: 0px;display: block;}
-  .dm-proj-block-item {margin-top: 10px;padding: 0px;}
-  .btn-contact-us .contactus,.weareeverywhere .contactus {margin: 0 auto;}
-  .dm-proj-clients .container {justify-content: none;padding-top: 20px;}
-  .dm-proj-clients .weareeverywhere,.slick-list.draggable {width: 100%;}
-  .price-list .column {flex-direction: column;padding-top: 20px;width: 0px;box-shadow: none;}
   .price-list {display: flex;flex-direction: column;align-items: center;padding-bottom: 20px;}
   .news-list .column {display: flex;flex-direction: column;width: 375px;box-shadow: none;background-color: transparent;height: 100%;}
   .news-list {width: 375px;display: flex;flex-direction: column;box-shadow: none;padding-top: 25px;padding-bottom: 0px;}
-  .news-list .column p {margin-top: 20px;margin-bottom: 20px;}
-  .news-column-span3 a {display: flex;justify-content: center;margin-bottom: 24px;}
   .news-column-span,.news-column-span2 {display: flex;justify-content: center;margin-top: 0px;}
   .nav-flex-column-4 {margin-left: 0px;width: 90%;}
   .nav-flex {flex-direction: column ;margin-left: 0px;width: 100%;}
-  .copyright {width: 375px;}
-  body {width: 375px;}
-  .dm-proj-plan .container .p, .p2 {padding-top: 18px;margin-top: 14px;margin-bottom: 14px;}
-  .nav-flex-column-2 h3,.nav-flex-column-3 h3,.nav-flex-column-4 h3,.nav-flex-column-1 p {margin-top: 30px;}
-  .slick-next.slick-arrow,.slick-prev.slick-arrow {display: none !important;}
 }
 
 /** ==================================================
@@ -2891,57 +2761,16 @@ form ul li .field-submit {
 */
 
 @media (max-width: 320px) {
-  .dm-proj-offer, .dm-proj-welc, .dm-proj-projects, .dm-proj-testimonials, .dm-proj-team, .dm-proj-clients, .dm-proj-newsletter, .dm-proj-plan, .price-list, .dm-proj-recentnews, .news-list {padding-top: 10px;}
-  .dm-proj .header__burger {display: block;position: fixed;top: 0;right: 0px;z-index: 100;height: 32px;}
-  .dm-proj .header__burger.active span:before {width: 10px; -webkit-transform: rotate(-45deg);-ms-transform: rotate(-45deg);transform: rotate(-45deg);-webkit-transform-origin: left bottom;-ms-transform-origin: left bottom;transform-origin: left bottom;-webkit-transition: all .4s ease 0s;-o-transition: all .4s ease 0s;transition: all .4s ease 0s;}
-  .dm-proj .header__burger.active span:after {width: 10px;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);-webkit-transform-origin: left top;-ms-transform-origin: left top;transform-origin: left top;-webkit-transition: all .4s ease 0s;-o-transition: all .4s ease 0s;transition: all .4s ease 0s;}
-  .dm-proj .menu-desktop ul li {max-width: 150px;margin: 21px 0px 0px 0px;font-size: 13px;z-index: 99;}
   .dm-proj .menu-desktop ul {display: -webkit-box;display: -ms-flexbox;display: flex;position: absolute;top: 314px;left: 38px;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;-webkit-box-pack: start;-ms-flex-pack: start;justify-content: flex-start;padding-left: 0px;}
-  .dm-proj .menu-desktop.active {right: 0;background-color: #1f1f1f;-webkit-transition: all .4s ease 0s;-o-transition: all .4s ease 0s;transition: all .4s ease 0s;z-index: 99;}
   .dm-proj .menu-desktop {position: fixed;right: -100%;display: block;width: 40%;max-width: 100%;height: 125vh;}
-  .dm-proj .container {justify-content: center;}
-  .dm-proj {padding-bottom: 0px;height: 120vh;}
-  .contactus {margin: 20px 0px 71px 0px;}
-  .dm-proj-about, .dm-proj-about .slick-list.draggable {width: 290px;}
-  .slider-top {font-size: 22px;}
-  .slider-top-dream,.slider-top-dream-house,.fastandsafe,.consult-q,.welcometo2 {font-size: 26px;}
-  .slick-slider-lorem {width: 90%;}
-  .container {width: 290px;padding: 0px;}
-  .slick-dots li.slick-active button:before,.slick-dots li button:before {display: none;}
-  .consult-m {font-size: 12px;}
-  [data-icon]::after,.contactus2,.youaremost::before,.youaremost::after,.youaremost2::before,.youaremost2::after,.dm-proj-projects-menu,.slick-slider-projects,.dm-proj-testimonials,.clients,.dm-proj-plan img,.dm-proj-clients div img,.dm-proj-testimonials .container .p,.dm-proj-testimonials .container .p2,.awards,.p2,.dm-proj-form,.dm-proj-contact-form,.dm-proj-newsletter,.slick-slider-team.slick-initialized.slick-slider.slick-dotted {display: none;}
+  [data-icon]::after,video,.contactus2,.youaremost::before,.youaremost::after,.youaremost2::before,.youaremost2::after,.dm-proj-projects-menu,.slick-slider-projects,.dm-proj-testimonials,.clients,.dm-proj-plan img,.dm-proj-clients div img,.dm-proj-testimonials .container .p,.dm-proj-testimonials .container .p2,.awards,.p2,.dm-proj-form,.dm-proj-contact-form,.dm-proj-newsletter,.slick-slider-team.slick-initialized.slick-slider.slick-dotted {display: none;}
   .news-list-cont,.news-list .column p {margin: 0px;width: 290px;}
-  .welcometo2,.strucbuilder {font-size: 18px;}
-  .column h3,.column p, .column .p-starter,.column .p-advanced,.column .p-enterprise {margin: 16px;width: 160px;}
   .column h3,.column p,.column .price,.column .p-starter,.column .p-advanced,.column .p-enterprise,.column .exclude-support,.dm-proj-recentnews .p {display: flex;justify-content: center;}
-  .dm-proj-block-item-info p {margin-bottom: 0px;}
-  .dm-proj-block-item {margin-bottom: 24px;}
-  .fairprice-support-delivery {display: flex;flex-direction: column;justify-content: none;width: 290px;margin: 0px;}
-  .fairprice,.support,.fastdelivery {width: 100%;height: 100%;background-image: none;border: none;}
-  .fairprice::before,.support::before,.fastdelivery::before {margin-top: 0px;font-size: 45px;}
-  .fairprice-p1,.support-p1,.fastdelivery-p1 {font-size: 20px;}
-  .fairprice-p2,.support-p2,.fastdelivery-p2 {padding: 0px;width: 90%;margin: 0px;display: block;}
-  .fairprice-p1-span,.support-p1-span,.fastdelivery-p1-span {margin: 20px 0px 20px 0px;}
-  video {display: none;}
-  .video .btn-play-main,.video .controls .buttons,.dm-proj .menu-desktop ul img {display: none;}
-  .dm-proj-offer-block {margin-top: 0px;display: block;}
-  .dm-proj-block-item {margin-top: 10px;padding: 0px;}
-  .btn-contact-us .contactus,.weareeverywhere .contactus {margin: 0 auto;}
-  .dm-proj-clients .container {justify-content: none;padding-top: 20px;}
-  .dm-proj-clients .weareeverywhere,.slick-list.draggable {width: 100%;}
-  .price-list .column {flex-direction: column;padding-top: 20px;width: 0px;box-shadow: none;}
   .price-list {display: flex;flex-direction: column;align-items: center;padding-bottom: 20px;}
   .news-list .column {display: flex;flex-direction: column;width: 290px;box-shadow: none;background-color: transparent;height: 100%;}
   .news-list .column img {width: 100%;}
   .news-list {width: 290px;display: flex;flex-direction: column;box-shadow: none;padding-top: 25px;padding-bottom: 0px;}
-  .news-list .column p {margin-top: 20px;margin-bottom: 20px;}
-  .news-column-span3 a {display: flex;justify-content: center;margin-bottom: 24px;}
   .nav-flex {margin-left:0px; width: 100%;flex-direction: column;}
   .news-column-span,.news-column-span2 {display: flex;justify-content: center;margin-top: 0px;}
   .nav-flex-column-4 {margin-left: 0px;width: 290px;}
-  .copyright {width: 320px;}
-  body {width: 320px;}
-  .dm-proj-plan .container .p, .p2 {padding-top: 18px;margin-top: 14px;margin-bottom: 14px;}
-  .nav-flex-column-2 h3,.nav-flex-column-3 h3,.nav-flex-column-4 h3,.nav-flex-column-1 p {margin-top: 30px;}
-  .slick-next.slick-arrow,.slick-prev.slick-arrow {display: none !important;}
 }
