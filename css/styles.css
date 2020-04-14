@@ -533,7 +533,7 @@ a {
 }
 
 .youaremost::after {
-  margin: -7px 22px 0px 0px;
+  margin: -7px 22px 0px 22px;
   content: url(../images/welcome/dot-line-right.png);
 }
 
